@@ -1,0 +1,299 @@
+*{
+	margin: 0 ;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+
+	
+}
+
+.clear{
+	clear: both;
+}
+.container{
+	width: 100%;
+	padding: 25px ;
+	background-color: rgba(0, 0, 0, 0.88);
+	z-index: 1;
+	position: relative;
+
+}
+
+.logo img{
+	position: absolute;
+	width: 180px;
+	left: 130px;
+	bottom: -15px;	
+	margin-right: 150px;
+	cursor: pointer;
+
+}
+
+
+.logo p{
+	position: absolute;
+	color: white;
+	left: 310px;
+	bottom: 12px;
+	font-weight: regular;
+	
+}
+.container{
+	overflow-y: hidden;
+}
+
+.logo h1{
+	position: absolute;
+
+
+}
+/*
+.logo input{
+	position: relative;
+	float: right;
+	width: 5%;
+	right: 5px;
+	bottom: 8px;
+	color: white;
+	background-color: violet;
+	cursor: pointer;
+
+	
+}
+*/
+.corpe{
+	position: relative;
+	width: 100%;
+	height: 1000px;
+	background-image: url(../images/9.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.corpe h1{
+	padding-left: 50px;
+	width: 1000px;
+	color:  white;
+	padding-right: 700px;
+	padding-top: 200px;
+	font-weight: normal;
+	
+}
+.corpe h2{
+	color: white;
+	padding-left: 50px;
+	font-size: 15px;
+	padding-top: 25px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.corpe h3{
+	
+	color: white;
+	padding-left: 50px;
+	padding: 50px;
+	font-weight: normal;
+}
+
+
+.black{
+	
+	left: 50px;
+	width: 400px;
+	height: 300px;
+	background-color: rgba(1, 1, 1, 0.3);
+}
+.antireco{
+	
+	display: flex;
+	margin-left: 40px;
+	cursor: pointer;
+
+}
+
+.antireco2 {
+	margin-top: 50px;
+	margin-right: 10px;
+	border-radius: 6px 6px 6px 6px;
+
+}
+
+
+
+
+
+
+.flex-mosaico{
+	display: flex;
+
+}
+
+
+.history{
+	background-position: right;
+	background-size: cover;
+	width: 120%;
+	height: 720px;
+	
+}
+
+
+
+
+.text {
+	color: white;
+	font-weight: regular;
+	text-align: center;
+}
+.text {
+	padding-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	text-align: left;
+	margin-left: 50px;
+	
+}
+.text h1{
+	padding-right: 50px;
+	text-align: center;
+}
+
+.text2{
+	color: white;
+	
+	padding-bottom: 50px;
+	font-size: 20px;
+	text-align: left;
+ 	margin-top: 50px;
+}
+
+footer{
+	padding: 20px;
+	text-align: center;
+	background: linear-gradient(55deg, black,darkgray, mediumpurple); 
+}
+
+footer p{
+cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 1600px){
+	.history{
+	background-position: right;
+	background-size: cover;
+	width: 1800px;
+	height: 600px;
+	
+}
+
+}
+
+@media screen and (max-width: 768px){
+	.logo img{
+		left: 30px;
+	}
+	
+	.logo p{
+		width: 200px;
+		left: 220px;
+	}
+	.antireco{
+		display: block;
+
+
+	}
+	.antireco{
+		flex-direction: column;
+	}
+
+	.antireco {
+		width: 100%;
+		height: auto;
+	}
+	.container{
+		width: 100%;	
+	}
+
+	.corpe{
+		width: 100%;
+		height: 720px;
+		color: blue;
+	}
+.corpe h1{
+		text-align: center;
+		white-space : nowrap;
+		width: 100%;
+	}
+	.corpe h2{
+		text-align: left;
+		width: 100%;
+	}
+	.corpe h3{
+		text-align: left;
+		width: 100%;
+
+	}
+	.antireco{
+		display: block;
+	}
+
+	
+		
+	
+	.flex-mosaico{
+		display: block;
+	}
+
+	.flex-mosaico{
+
+	}
+	
+	.item-1-mosaico{
+		padding-top: 80%;
+		width: 100%;
+}	
+	.item-1-mosaico{
+		width: 100%;
+		text-align: justify;
+
+}
+	
+	.reco h1 p{
+		width: 100%;
+		text-align: justify;
+
+
+	}
+
+	.text{
+		text-align: justify;
+	}
+	.history{
+	background-position: right;
+	background-size: cover;
+	width: auto;
+	height: 720px;
+	}
+	
+	}
+	.antireco img{
+		flex-direction: column;
+		
+		margin-bottom: 5px;
+		width: auto;
+		height: auto;
+		padding-top: 50px;
+
+	}
+
+	
+}
+
+
+
+
+*/
